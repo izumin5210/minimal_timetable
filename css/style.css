@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 12px; }
+
+.list-department.list-m dt {
+  background-color: #e74c3c; }
+.list-department.list-e dt {
+  background-color: #f39c12; }
+.list-department.list-c dt {
+  background-color: rgba(52, 152, 219, 0.5); }
+.list-department.list-a dt {
+  background-color: rgba(46, 204, 113, 0.5); }
+.list-department.list-adv dt {
+  background-color: rgba(127, 140, 141, 0.5); }
+.list-department dt {
+  float: left;
+  width: 96px;
+  height: 96px;
+  line-height: 96px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  border-bottom: 1px #fff solid; }
+.list-department dd {
+  height: 64px;
+  margin-left: 96px;
+  padding: 16px;
+  line-height: 16px;
+  color: #95a5a6;
+  border-bottom: 1px #fff solid;
+  background-color: #ecf0f1; }

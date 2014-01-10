@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+
+@function m-color($a) { @return rgba(231, 76, 60, $a); }
+@function e-color($a) { @return rgba(243, 156, 18, $a); }
+@function c-color($a) { @return rgba(52, 152, 219, $a); }
+@function a-color($a) { @return rgba(46, 204, 113, $a); }
+@function adv-color($a) { @return rgba(127, 140, 141, $a); }
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+
+.list-department {
+  $box-size: 96px;
+  &.list-m dt { background-color: m-color(1.0); }
+  &.list-e dt { background-color: e-color(1.0); }
+  &.list-c dt { background-color: c-color(0.5); }
+  &.list-a dt { background-color: a-color(0.5); }
+  &.list-adv dt { background-color: adv-color(0.5); }
+  dt {
+    float: left;
+    width: $box-size;
+    height: $box-size;
+    line-height: $box-size;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    border-bottom: 1px #fff solid;
+  }
+  dd {
+    height: $box-size - 32px;
+    margin-left: $box-size;
+    padding: 16px;
+    line-height: 16px;
+    color: #95a5a6;
+    border-bottom: 1px #fff solid;
+    background-color: #ecf0f1;
+  }
+}
