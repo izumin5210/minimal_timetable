@@ -9,11 +9,11 @@
 * {
   padding: 0;
   margin: 0;
-  font-size: 12px;
+  font-size: 9px;
 }
 
 .list-department {
-  $box-size: 96px;
+  $box-size: 64px;
   &.list-m dt { background-color: m-color(1.0); }
   &.list-e dt { background-color: e-color(1.0); }
   &.list-c dt { background-color: c-color(0.5); }
@@ -28,14 +28,14 @@
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size: 24px;
+    font-size: 16px;
     border-bottom: 1px #fff solid;
   }
   dd {
-    height: $box-size - 32px;
+    height: $box-size - 16px;
     margin-left: $box-size;
-    padding: 16px;
-    line-height: 16px;
+    padding: 8px;
+    line-height: 12px;
     color: #95a5a6;
     border-bottom: 1px #fff solid;
     background-color: #ecf0f1;
