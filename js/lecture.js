@@ -56,7 +56,11 @@ Lecture = (function() {
   };
 
   Lecture.prototype.isToday = function() {
-    return +moment().day() === +this.wday;
+    return this.isWday(moment().day());
+  };
+
+  Lecture.prototype.isWday = function(wday) {
+    return +wday === +this.wday;
   };
 
   Lecture.prototype.isPeriod = function(period) {

@@ -30,7 +30,9 @@ class Lecture
         when '電気電子工学コース' then 'd'
         when '情報工学コース' then 'j'
 
-  isToday: -> +moment().day() == +@wday
+  isToday: -> @isWday moment().day()
+
+  isWday: (wday) -> +wday == +@wday
 
   isPeriod: (period) ->
     switch period
