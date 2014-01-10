@@ -10,15 +10,30 @@
   padding: 0;
   margin: 0;
   font-size: 9px;
+  box-sizing: content-box !important;
+}
+
+body {
+  margin-top:50px;
+}
+
+.navbar-transparent {
+  opacity: 0.8;
 }
 
 .list-department {
   $box-size: 64px;
+  margin: 0;
+  padding: 0;
   &.list-m dt { background-color: m-color(1.0); }
   &.list-e dt { background-color: e-color(1.0); }
   &.list-c dt { background-color: c-color(0.5); }
   &.list-a dt { background-color: a-color(0.5); }
   &.list-adv dt { background-color: adv-color(0.5); }
+  &.list-about dt {
+    font-size: 12px;
+    background-color: #34495e;
+  }
   dt {
     float: left;
     width: $box-size;
@@ -39,5 +54,13 @@
     color: #95a5a6;
     border-bottom: 1px #fff solid;
     background-color: #ecf0f1;
+    a {
+      &:link, &:visited, &:hover, &:active {
+        color: #95a5a6;
+      }
+      &:hover, &:active {
+        color: #d35400;
+      }
+    }
   }
 }

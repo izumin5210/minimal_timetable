@@ -2,50 +2,51 @@
 * {
   padding: 0;
   margin: 0;
-<<<<<<< HEAD
-  font-size: 9px; }
-=======
-  font-size: 10px; }
->>>>>>> フォントサイズを下げてみた
+  font-size: 9px;
+  box-sizing: content-box !important; }
 
-.list-department.list-m dt {
-  background-color: #e74c3c; }
-.list-department.list-e dt {
-  background-color: #f39c12; }
-.list-department.list-c dt {
-  background-color: rgba(52, 152, 219, 0.5); }
-.list-department.list-a dt {
-  background-color: rgba(46, 204, 113, 0.5); }
-.list-department.list-adv dt {
-  background-color: rgba(127, 140, 141, 0.5); }
-.list-department dt {
-  float: left;
-<<<<<<< HEAD
-  width: 64px;
-  height: 64px;
-  line-height: 64px;
-=======
-  width: 72px;
-  height: 72px;
-  line-height: 72px;
->>>>>>> フォントサイズを下げてみた
-  text-align: center;
-  color: #fff;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 16px;
-  border-bottom: 1px #fff solid; }
-.list-department dd {
-<<<<<<< HEAD
-  height: 48px;
-  margin-left: 64px;
-  padding: 8px;
-=======
-  height: 40px;
-  margin-left: 72px;
-  padding: 12px;
->>>>>>> フォントサイズを下げてみた
-  line-height: 12px;
-  color: #95a5a6;
-  border-bottom: 1px #fff solid;
-  background-color: #ecf0f1; }
+body {
+  margin-top: 50px; }
+
+.navbar-transparent {
+  opacity: 0.8; }
+
+.list-department {
+  margin: 0;
+  padding: 0; }
+  .list-department.list-m dt {
+    background-color: #e74c3c; }
+  .list-department.list-e dt {
+    background-color: #f39c12; }
+  .list-department.list-c dt {
+    background-color: rgba(52, 152, 219, 0.5); }
+  .list-department.list-a dt {
+    background-color: rgba(46, 204, 113, 0.5); }
+  .list-department.list-adv dt {
+    background-color: rgba(127, 140, 141, 0.5); }
+  .list-department.list-about dt {
+    font-size: 12px;
+    background-color: #34495e; }
+  .list-department dt {
+    float: left;
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    border-bottom: 1px #fff solid; }
+  .list-department dd {
+    height: 48px;
+    margin-left: 64px;
+    padding: 8px;
+    line-height: 12px;
+    color: #95a5a6;
+    border-bottom: 1px #fff solid;
+    background-color: #ecf0f1; }
+    .list-department dd a:link, .list-department dd a:visited, .list-department dd a:hover, .list-department dd a:active {
+      color: #95a5a6; }
+    .list-department dd a:hover, .list-department dd a:active {
+      color: #d35400; }
