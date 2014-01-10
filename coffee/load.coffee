@@ -1,3 +1,4 @@
+$('.navbar-brand').append " - #{(if moment().day() > 5 then moment().day('Monday') else moment()).format('dddd')}"
 $.ajax
   type: 'GET'
   # url: './data/timetable201310.xml'
