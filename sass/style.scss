@@ -54,6 +54,8 @@ body {
     color: #95a5a6;
     border-bottom: 1px #fff solid;
     background-color: #ecf0f1;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
     a {
       &:link, &:visited, &:hover, &:active {
         color: #95a5a6;

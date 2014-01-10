@@ -45,7 +45,9 @@ body {
     line-height: 12px;
     color: #95a5a6;
     border-bottom: 1px #fff solid;
-    background-color: #ecf0f1; }
+    background-color: #ecf0f1;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box; }
     .list-department dd a:link, .list-department dd a:visited, .list-department dd a:hover, .list-department dd a:active {
       color: #95a5a6; }
     .list-department dd a:hover, .list-department dd a:active {
